@@ -1,0 +1,49 @@
+div.App{
+  text-align: center;
+  background-color: darkblue;
+}
+
+.App-car {
+  animation: App-car-spin infinite 20s linear;
+
+}
+@keyframes App-car-spin {
+  from { transform: rotate3d(0,0,0,0deg); }
+  to { transform: rotate3d(0,1,0,360deg); }
+
+}
+body{
+  background-color: blue;
+  color: white;
+}
+.App-button {
+   border-top: 1px solid #9a97f7;
+   background: #cd65d6;
+   background: -webkit-gradient(linear, left top, left bottom, from(#6f3e9c), to(#cd65d6));
+   background: -webkit-linear-gradient(top, #6f3e9c, #cd65d6);
+   background: -moz-linear-gradient(top, #6f3e9c, #cd65d6);
+   background: -ms-linear-gradient(top, #6f3e9c, #cd65d6);
+   background: -o-linear-gradient(top, #6f3e9c, #cd65d6);
+   padding: 20px 40px;
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   border-radius: 40px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #fafafa;
+   font-size: 24px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.App-button:hover {
+   border-top-color: #287844;
+   background: #287844;
+   color: #ccc;
+   }
+.App-button:active {
+   border-top-color: #2508ff;
+   background: #2508ff;
+   }
