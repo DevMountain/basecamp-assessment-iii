@@ -32,7 +32,7 @@ When you have completed the challenge please follow these instructions:
 * Commit all of your completed code.
 * Type `git checkout -b gh-pages`
 * Type `git push -u origin gh-pages`
-* Find your account name on github and insert it into this url `http://[YourGithubAccountName].github.io/basecamp-assessment-iii`
+* Find your account name on github and insert it into this url `https://github.com/[YourGitHubAccountName]/basecamp-assessment-iii`
 * Open that url to make sure it works, then send that url to basecamp@devmountain.com!
 
 ## Contributions
