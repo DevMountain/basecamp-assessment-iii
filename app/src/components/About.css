@@ -1,0 +1,32 @@
+.about {
+    margin:10px;
+    background-color: #dad39c;
+}
+img {
+    float:right;
+    margin:auto;
+    max-height: 200px;
+    max-width:400px;
+    min-width:200px;
+    padding: 25px;
+}
+
+.about h1 {
+    width:fit-content;
+    padding:1em;
+    padding-bottom: 0;
+    margin:0;
+    font-size: 24px;
+    font-family:sans-serif;
+}
+
+p {
+    text-align:justify;
+    text-justify: inter-word;
+    padding:1em;
+    margin:0;
+}
+#signature {
+    text-align:right;
+    padding-right:100px;
+}
