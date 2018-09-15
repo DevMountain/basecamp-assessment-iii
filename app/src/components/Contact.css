@@ -1,0 +1,15 @@
+.contact {
+    padding:20px;
+    width:vw;
+}
+
+#info div{
+    padding: 10px;
+}
+#info {
+    margin:auto;
+    padding:1em;
+    width:fit-content;
+    background-color:#8dd6e9;
+    border-radius: 20px;
+}
